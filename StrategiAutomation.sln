@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selenium.Utils", "StrategiProject\Selenium.Utils.csproj", "{A058B96D-A520-4E4B-A308-210418ADAF93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategi.Tests", "Strategi.Tests\Strategi.Tests.csproj", "{7D4005F9-4CF1-482D-B064-99FA7DABB4B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A058B96D-A520-4E4B-A308-210418ADAF93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A058B96D-A520-4E4B-A308-210418ADAF93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A058B96D-A520-4E4B-A308-210418ADAF93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A058B96D-A520-4E4B-A308-210418ADAF93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D4005F9-4CF1-482D-B064-99FA7DABB4B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D4005F9-4CF1-482D-B064-99FA7DABB4B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D4005F9-4CF1-482D-B064-99FA7DABB4B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D4005F9-4CF1-482D-B064-99FA7DABB4B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6E9BD0B-57B8-4CB8-BD84-3F8C5D5CED07}
+	EndGlobalSection
+EndGlobal
