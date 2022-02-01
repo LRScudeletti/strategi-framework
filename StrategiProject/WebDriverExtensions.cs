@@ -18,6 +18,14 @@ namespace Selenium.Utils
             return wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(by));
         }
 
+        public static IWebElement GetShadowRootElement(this IWebDriver webDriver, By by, int waitingTime = 0)
+        {
+            if (waitingTime > 0)
+                Thread.Sleep(waitingTime);
+
+            return (IWebElement)webDriver.FindElement(@by).GetShadowRoot();
+        }
+
         public static bool CheckVisible(this IWebDriver webDriver, By by, int waitingTime = 0)
         {
             var wait = new WebDriverWait(webDriver, TimeSpan.FromMilliseconds(waitingTime));
